@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64020FAF1E3F3DCC00AB4034 /* LFTEtica-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 64020FAE1E3F3DCC00AB4034 /* LFTEtica-Regular.otf */; };
+		64020FB11E3F558B00AB4034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64020FB01E3F558B00AB4034 /* Assets.xcassets */; };
 		64864B861E39E457002301DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64864B851E39E457002301DC /* AppDelegate.swift */; };
 		64864B881E39E457002301DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64864B871E39E457002301DC /* ViewController.swift */; };
 		64864B8B1E39E457002301DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64864B891E39E457002301DC /* Main.storyboard */; };
-		64864B8D1E39E457002301DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64864B8C1E39E457002301DC /* Assets.xcassets */; };
 		64864B901E39E457002301DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64864B8E1E39E457002301DC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64020FAE1E3F3DCC00AB4034 /* LFTEtica-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LFTEtica-Regular.otf"; sourceTree = "<group>"; };
+		64020FB01E3F558B00AB4034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64864B821E39E457002301DC /* AppBuilders2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppBuilders2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64864B851E39E457002301DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64864B871E39E457002301DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64864B8A1E39E457002301DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		64864B8C1E39E457002301DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64864B8F1E39E457002301DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64864B911E39E457002301DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,12 +56,13 @@
 		64864B841E39E457002301DC /* AppBuilders2017 */ = {
 			isa = PBXGroup;
 			children = (
+				64020FB01E3F558B00AB4034 /* Assets.xcassets */,
 				64864B851E39E457002301DC /* AppDelegate.swift */,
 				64864B871E39E457002301DC /* ViewController.swift */,
 				64864B891E39E457002301DC /* Main.storyboard */,
-				64864B8C1E39E457002301DC /* Assets.xcassets */,
 				64864B8E1E39E457002301DC /* LaunchScreen.storyboard */,
 				64864B911E39E457002301DC /* Info.plist */,
+				64020FAE1E3F3DCC00AB4034 /* LFTEtica-Regular.otf */,
 			);
 			path = AppBuilders2017;
 			sourceTree = "<group>";
@@ -124,7 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				64864B901E39E457002301DC /* LaunchScreen.storyboard in Resources */,
-				64864B8D1E39E457002301DC /* Assets.xcassets in Resources */,
+				64020FAF1E3F3DCC00AB4034 /* LFTEtica-Regular.otf in Resources */,
+				64020FB11E3F558B00AB4034 /* Assets.xcassets in Resources */,
 				64864B8B1E39E457002301DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +305,7 @@
 				64864B961E39E457002301DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
