@@ -1,0 +1,6 @@
+framework module Pods_AppBuilders2017 {
+  umbrella header "Pods-AppBuilders2017-umbrella.h"
+
+  export *
+  module * { export * }
+}
