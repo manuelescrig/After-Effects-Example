@@ -14,8 +14,8 @@
 		64864B881E39E457002301DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64864B871E39E457002301DC /* ViewController.swift */; };
 		64864B8B1E39E457002301DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64864B891E39E457002301DC /* Main.storyboard */; };
 		64864B901E39E457002301DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64864B8E1E39E457002301DC /* LaunchScreen.storyboard */; };
-		64BD9F091E48D1F500CF9A92 /* temp.json in Resources */ = {isa = PBXBuildFile; fileRef = 64BD9F081E48D1F500CF9A92 /* temp.json */; };
-		64F251E41E44CFBF00023D4F /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = 64F251E31E44CFBF00023D4F /* LottieLogo1.json */; };
+		64BD9F091E48D1F500CF9A92 /* example2.json in Resources */ = {isa = PBXBuildFile; fileRef = 64BD9F081E48D1F500CF9A92 /* example2.json */; };
+		64F251E41E44CFBF00023D4F /* example3.json in Resources */ = {isa = PBXBuildFile; fileRef = 64F251E31E44CFBF00023D4F /* example3.json */; };
 		7F918B61285812E992F3F965 /* Pods_AppBuilders2017.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10A4231CAC476F864E3C3EB /* Pods_AppBuilders2017.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +31,8 @@
 		64864B8A1E39E457002301DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64864B8F1E39E457002301DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64864B911E39E457002301DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64BD9F081E48D1F500CF9A92 /* temp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = temp.json; sourceTree = "<group>"; };
-		64F251E31E44CFBF00023D4F /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		64BD9F081E48D1F500CF9A92 /* example2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example2.json; sourceTree = "<group>"; };
+		64F251E31E44CFBF00023D4F /* example3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example3.json; sourceTree = "<group>"; };
 		BEDED76262542CC023FDE415 /* Pods-AppBuilders2017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppBuilders2017.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppBuilders2017/Pods-AppBuilders2017.release.xcconfig"; sourceTree = "<group>"; };
 		D10A4231CAC476F864E3C3EB /* Pods_AppBuilders2017.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppBuilders2017.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -79,19 +79,43 @@
 		64864B841E39E457002301DC /* AppBuilders2017 */ = {
 			isa = PBXGroup;
 			children = (
-				645F5AC91E49CC6F00CDA16E /* data.json */,
-				64020FB01E3F558B00AB4034 /* Assets.xcassets */,
+				64ACF1A41E5453990082A170 /* Animations */,
 				64864B851E39E457002301DC /* AppDelegate.swift */,
 				64864B871E39E457002301DC /* ViewController.swift */,
 				64864B891E39E457002301DC /* Main.storyboard */,
 				64864B8E1E39E457002301DC /* LaunchScreen.storyboard */,
 				64864B911E39E457002301DC /* Info.plist */,
-				64BD9F081E48D1F500CF9A92 /* temp.json */,
-				64F251E31E44CFBF00023D4F /* LottieLogo1.json */,
+				64ACF1A61E5453D30082A170 /* Resources */,
+			);
+			path = AppBuilders2017;
+			sourceTree = "<group>";
+		};
+		64ACF1A41E5453990082A170 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				645F5AC91E49CC6F00CDA16E /* data.json */,
+				64BD9F081E48D1F500CF9A92 /* example2.json */,
+				64F251E31E44CFBF00023D4F /* example3.json */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+		64ACF1A51E5453B90082A170 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
 				645F5ACB1E4A178D00CDA16E /* LFTEtica-SemiBold.otf */,
 				64020FAE1E3F3DCC00AB4034 /* LFTEtica-Regular.otf */,
 			);
-			path = AppBuilders2017;
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		64ACF1A61E5453D30082A170 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64020FB01E3F558B00AB4034 /* Assets.xcassets */,
+				64ACF1A51E5453B90082A170 /* Fonts */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		D807E9FEDB3AEB3E45CC8D89 /* Frameworks */ = {
@@ -168,9 +192,9 @@
 				645F5ACA1E49CC6F00CDA16E /* data.json in Resources */,
 				64020FAF1E3F3DCC00AB4034 /* LFTEtica-Regular.otf in Resources */,
 				64020FB11E3F558B00AB4034 /* Assets.xcassets in Resources */,
-				64F251E41E44CFBF00023D4F /* LottieLogo1.json in Resources */,
+				64F251E41E44CFBF00023D4F /* example3.json in Resources */,
 				64864B8B1E39E457002301DC /* Main.storyboard in Resources */,
-				64BD9F091E48D1F500CF9A92 /* temp.json in Resources */,
+				64BD9F091E48D1F500CF9A92 /* example2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
