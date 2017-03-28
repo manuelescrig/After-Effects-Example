@@ -1,5 +1,5 @@
 # AppBuilders2017
-Animation project for the Liip Sponsorship.
+Animation project for the Liip Sponsorship created with Adobe After Effects and imported in the app using Lottie.
 
 # Blog posts
 
