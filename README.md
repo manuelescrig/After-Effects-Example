@@ -1,5 +1,6 @@
-# AppBuilders2017
+# After Effects Example
 Animation project for the Liip Sponsorship created with Adobe After Effects and imported in the app using Lottie.
+
 
 # Blog posts
 
